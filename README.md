@@ -1,13 +1,24 @@
-1. IOS
+# HealthApp
 
-appcenter codepush release-react -a isofhvn/IVIE-PLUS-IOS -d Develop
+Native iOS healthcare application.
 
-dev: HmPr3j-2FTebAgM3_gPRaXWWrjQSkrxvnqG-m
-prod: X-hFqJZqH8wUqzeSSPYpQl3-zVriJmfI393B5
+## Tech Stack
 
-2. ANDROID
+- Swift
+- SwiftUI
+- MVVM
+- URLSession
+- SwiftData
+- WebSocket
+- APNs
+- CallKit
+- WebRTC
 
-appcenter codepush release-react -a isofhvn/IVIE-PLUS-ANDROID -d Develop
+## Features
 
-dev: AJ0bpSgoH5oa0qj3w6KVwQP2w7J-mGcSuHoTb
-prod: VQMFcg6bFaWQykofXacoFX8UNT60bzGZHV-FO
+- Authentication
+- Doctor appointment
+- Real-time chat
+- Voice call
+- Video call
+- Push notification
