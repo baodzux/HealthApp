@@ -1,0 +1,65 @@
+# =========================
+# Xcode
+# =========================
+.DS_Store
+build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+
+# Xcode user-specific files
+*.xccheckout
+
+# =========================
+# Swift Package Manager
+# =========================
+.build/
+.swiftpm/
+Package.resolved
+
+# =========================
+# CocoaPods
+# =========================
+Pods/
+
+# =========================
+# Carthage
+# =========================
+Carthage/Build/
+
+# =========================
+# Fastlane
+# =========================
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# =========================
+# Secrets / Environment
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Certificates / Keys
+# =========================
+*.p12
+*.cer
+*.mobileprovision
+*.pem
+*.key
+
+# =========================
+# Archives
+# =========================
+*.xcarchive
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+*.log

@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E9CFCB4A305795EE0050F6CE /* HealthApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9CFCB57305795F00050F6CE /* HealthAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9CFCB61305795F00050F6CE /* HealthAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9CFCB4A305795EE0050F6CE /* HealthApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = HealthApp.app; path = "/Users/ngoquocbao/Documents/project-ios/HealthApp/build/Debug-iphoneos/HealthApp.app"; sourceTree = "<absolute>"; };
+		E9CFCB57305795F00050F6CE /* HealthAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = HealthAppTests.xctest; path = "/Users/ngoquocbao/Documents/project-ios/HealthApp/build/Debug-iphoneos/HealthApp.app/PlugIns/HealthAppTests.xctest"; sourceTree = "<absolute>"; };
+		E9CFCB61305795F00050F6CE /* HealthAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = HealthAppUITests.xctest; path = "/Users/ngoquocbao/Documents/project-ios/HealthApp/build/Debug-iphoneos/HealthAppUITests-Runner.app/PlugIns/HealthAppUITests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -78,18 +78,7 @@
 				E9CFCB4C305795EE0050F6CE /* HealthApp */,
 				E9CFCB5A305795F00050F6CE /* HealthAppTests */,
 				E9CFCB64305795F00050F6CE /* HealthAppUITests */,
-				E9CFCB4B305795EE0050F6CE /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		E9CFCB4B305795EE0050F6CE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E9CFCB4A305795EE0050F6CE /* HealthApp.app */,
-				E9CFCB57305795F00050F6CE /* HealthAppTests.xctest */,
-				E9CFCB61305795F00050F6CE /* HealthAppUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,7 +185,7 @@
 			mainGroup = E9CFCB41305795EE0050F6CE;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = E9CFCB4B305795EE0050F6CE /* Products */;
+			productRefGroup = E9CFCB41305795EE0050F6CE;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
